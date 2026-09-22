@@ -1,0 +1,6 @@
+export const services=[
+{id:"digital",title:"Digital Printing",kicker:"CMYK • SHARP • PROFESSIONAL",text:"Fast, crisp printing for everyday business and personal needs.",items:["Business cards","Flyers & posters","Brochures & menus","Letterheads & certificates","Invitations & programmes","Stickers & labels"]},
+{id:"large",title:"Large Format Printing",kicker:"MAKE IT BIG",text:"High-impact graphics for shops, events, campaigns and spaces.",items:["PVC banners","Pull-up banners","Posters","Window & wall graphics","Correx & signage","Event backdrops"]},
+{id:"dtf",title:"DTF Apparel",kicker:"WEAR YOUR BRAND",text:"Vibrant full-colour garment printing for individuals, teams and businesses.",items:["T-shirts","Hoodies & sweaters","Long sleeves","Workwear","Team & event apparel","Names, logos & artwork"]},
+{id:"branding",title:"Branding & Signage",kicker:"BE SEEN",text:"Turn your business into a recognisable brand across every touchpoint.",items:["Shopfront branding","Office branding","Vehicle graphics","Window branding","Corporate stationery","Promotional branding"]}
+];
