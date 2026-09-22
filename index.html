@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TENDIA PRINTING — Digital printing, large format printing, DTF apparel, branding, signage and custom print solutions.">
+<title>TENDIA PRINTING | Print. Brand. Stand Out.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111827;--muted:#667085;--paper:#f7f8fb;--white:#fff;--line:#e7eaf0;--blue:#1646d8;--blue2:#0b2b8f;--red:#ef3d3d;--shadow:0 18px 60px rgba(16,24,40,.10);--radius:24px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}.container{width:min(1160px,92%);margin:auto}
+header{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(255,255,255,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(231,234,240,.8)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk";font-weight:700;letter-spacing:-.04em;font-size:20px}.mark{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--blue),var(--red));display:grid;place-items:center;color:#fff;font-weight:700;box-shadow:0 8px 22px rgba(22,70,216,.25)}.links{display:flex;gap:27px;align-items:center;color:#475467;font-size:14px;font-weight:600}.links a:hover{color:var(--blue)}.nav-cta,.hero-cta{background:var(--ink);color:#fff;padding:12px 18px;border-radius:12px;font-weight:700;border:0;cursor:pointer}.nav-cta:hover,.hero-cta:hover{transform:translateY(-2px);box-shadow:0 10px 25px rgba(17,24,39,.16)}.menu{display:none;border:0;background:none;font-size:25px}
+.hero{padding:155px 0 90px;background:radial-gradient(circle at 80% 25%,rgba(22,70,216,.14),transparent 30%),radial-gradient(circle at 15% 80%,rgba(239,61,61,.10),transparent 25%),#fff;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:65px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 11px;border-radius:999px;background:#eef3ff;color:var(--blue);font-size:12px;font-weight:700;margin-bottom:20px}.dot{width:7px;height:7px;border-radius:50%;background:var(--red)}h1,h2,h3{font-family:"Space Grotesk",sans-serif;letter-spacing:-.045em}h1{font-size:clamp(44px,6vw,76px);line-height:.98;max-width:720px}.accent{color:var(--blue)}.hero p{font-size:18px;color:var(--muted);max-width:610px;margin:25px 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero-cta{background:linear-gradient(135deg,var(--blue),#3267e7);padding:14px 21px}.secondary{padding:13px 20px;border:1px solid var(--line);border-radius:12px;background:#fff;font-weight:700}.secondary:hover{border-color:#c8d0df}.visual{position:relative;min-height:470px}.sheet{position:absolute;border-radius:24px;box-shadow:var(--shadow);overflow:hidden}.sheet.main{inset:15px 0 45px 40px;background:linear-gradient(145deg,#0e2d8d,#245ae1 48%,#ef3d3d);padding:32px;color:#fff;transform:rotate(2deg)}.sheet.main:after{content:"";position:absolute;width:260px;height:260px;border:42px solid rgba(255,255,255,.13);border-radius:50%;right:-90px;bottom:-70px}.print-label{font-size:11px;letter-spacing:.16em;font-weight:700;opacity:.75}.sheet h2{font-size:48px;line-height:.96;margin-top:105px;max-width:320px}.sheet .stripe{height:7px;width:105px;background:#fff;margin-top:24px;border-radius:10px}.mini{background:#fff;right:-5px;bottom:0;width:230px;height:160px;padding:22px;transform:rotate(-7deg)}.mini strong{font-family:"Space Grotesk";font-size:27px}.mini .fake-lines{margin-top:18px;display:grid;gap:7px}.fake-lines i{display:block;height:6px;border-radius:5px;background:#e9edf5}.floating{position:absolute;left:-5px;bottom:35px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;box-shadow:var(--shadow);font-weight:700;font-size:13px}.floating span{display:block;color:var(--blue);font-size:22px;font-family:"Space Grotesk"}
+section{padding:95px 0}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:42px}.section-head h2{font-size:clamp(34px,4vw,52px);line-height:1}.section-head p{max-width:480px;color:var(--muted)}
+.services{background:#fff}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:27px;transition:.25s;position:relative;overflow:hidden}.card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#d5dbea}.icon{width:48px;height:48px;border-radius:15px;background:#eef3ff;color:var(--blue);display:grid;place-items:center;font-size:22px;margin-bottom:24px}.card:nth-child(2) .icon,.card:nth-child(5) .icon{background:#fff0f0;color:var(--red)}.card h3{font-size:22px;margin-bottom:9px}.card p{color:var(--muted);font-size:14px}.tag{display:inline-block;margin-top:20px;font-size:12px;font-weight:700;color:var(--blue)}
+.band{background:var(--ink);color:#fff;padding:62px 0}.band-grid{display:grid;grid-template-columns:1fr auto;align-items:center;gap:35px}.band h2{font-size:clamp(31px,4vw,48px);max-width:680px}.band p{color:#b8c0cf;margin-top:9px}.white-btn{background:#fff;color:var(--ink);padding:14px 20px;border-radius:12px;font-weight:800;white-space:nowrap}
+.showcase{background:var(--paper)}.portfolio{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-template-rows:220px 220px;gap:15px}.tile{border-radius:22px;overflow:hidden;position:relative;display:flex;align-items:end;padding:22px;color:#fff;background:linear-gradient(135deg,#162e86,#4d77e8)}.tile:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 70% 20%,rgba(255,255,255,.24),transparent 25%),linear-gradient(transparent,rgba(0,0,0,.42))}.tile>*{position:relative}.tile.large{grid-row:span 2;background:linear-gradient(145deg,#0e2d8d 10%,#2462e9 50%,#ef3d3d)}.tile.red{background:linear-gradient(145deg,#7e1e27,#ef3d3d)}.tile.dark{background:linear-gradient(145deg,#111827,#39465e)}.tile h3{font-size:25px}.tile p{font-size:12px;opacity:.82;margin-top:3px}
+.process{background:#fff}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{padding:25px;border:1px solid var(--line);border-radius:20px}.num{font-family:"Space Grotesk";font-size:13px;color:var(--blue);font-weight:700}.step h3{font-size:20px;margin:26px 0 8px}.step p{font-size:13px;color:var(--muted)}
+.quote{background:linear-gradient(135deg,#f0f4ff,#fff 55%,#fff0f0)}.quote-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:start}.quote h2{font-size:clamp(36px,4vw,55px);line-height:1.02}.quote-copy{color:var(--muted);margin-top:18px}.form{background:#fff;padding:28px;border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);display:grid;gap:13px}.row{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:grid;gap:6px}.field label{font-size:12px;font-weight:700;color:#475467}.field input,.field textarea,.field select{width:100%;border:1px solid #d9deea;border-radius:11px;padding:12px 13px;outline:none;background:#fff}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(22,70,216,.08)}textarea{min-height:120px;resize:vertical}.submit{border:0;background:linear-gradient(135deg,var(--blue),#3267e7);color:#fff;padding:14px;border-radius:11px;font-weight:800;cursor:pointer}
+footer{background:#0d1320;color:#fff;padding:58px 0 28px}.foot{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:45px}.foot p{color:#9ca7ba;margin-top:14px;max-width:360px;font-size:14px}.foot h4{margin-bottom:15px}.foot a{display:block;color:#aeb7c7;font-size:14px;margin:8px 0}.foot a:hover{color:#fff}.copyright{border-top:1px solid #252d3c;margin-top:40px;padding-top:22px;color:#778297;font-size:12px;display:flex;justify-content:space-between}
+.reveal{opacity:0;transform:translateY(18px);transition:.7s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:850px){.links{display:none}.menu{display:block}.hero-grid,.quote-grid{grid-template-columns:1fr}.visual{min-height:420px}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.portfolio{grid-template-columns:1fr 1fr;grid-template-rows:200px 200px 200px}.tile.large{grid-row:span 1}.band-grid{grid-template-columns:1fr}.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.nav{height:68px}.hero{padding-top:120px}.hero p{font-size:16px}.grid,.steps,.row,.portfolio{grid-template-columns:1fr}.portfolio{grid-template-rows:220px 180px 180px 180px}.tile.large{grid-row:span 1}.visual{min-height:340px}.sheet.main{inset:10px 10px 45px 0}.sheet h2{font-size:39px;margin-top:72px}.mini{width:190px;height:135px}.floating{left:0}.section-head{display:block}.section-head p{margin-top:15px}.copyright{display:block}.copyright span{display:block;margin-top:8px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#"><span class="mark">T</span><span>TENDIA PRINTING</span></a>
+<nav class="links"><a href="#services">Services</a><a href="#work">Our Work</a><a href="#process">How It Works</a><a href="#quote">Get a Quote</a></nav>
+<a class="nav-cta" href="#quote">Start a Project</a><button class="menu" aria-label="Menu">☰</button>
+</div></header>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+<div class="reveal"><span class="eyebrow"><span class="dot"></span> PRINTING • BRANDING • APPAREL</span>
+<h1>Make your brand <span class="accent">impossible</span> to ignore.</h1>
+<p>Professional digital printing, large-format graphics, DTF apparel and custom branding solutions built to make businesses, events and ideas stand out.</p>
+<div class="hero-actions"><a class="hero-cta" href="#quote">Get a Free Quote →</a><a class="secondary" href="#services">Explore Services</a></div>
+</div>
+<div class="visual reveal">
+<div class="sheet main"><div class="print-label">TENDIA / PRINT STUDIO</div><h2>PRINT<br>BIG.<br>THINK<br>BIGGER.</h2><div class="stripe"></div></div>
+<div class="mini"><strong>DTF<br>APPAREL</strong><div class="fake-lines"><i style="width:90%"></i><i style="width:65%"></i><i style="width:78%"></i></div></div>
+<div class="floating"><span>01</span> From idea to finished print.</div>
+</div>
+</div></section>
+
+<section class="services" id="services"><div class="container">
+<div class="section-head reveal"><h2>Everything you need<br>to get noticed.</h2><p>One printing partner for everyday business stationery, attention-grabbing signage, branded apparel and large-format campaigns.</p></div>
+<div class="grid">
+<article class="card reveal"><div class="icon">▦</div><h3>Digital Printing</h3><p>Sharp, professional short-run printing for flyers, business cards, brochures, posters, menus, documents and more.</p><span class="tag">BUSINESS PRINT</span></article>
+<article class="card reveal"><div class="icon">▰</div><h3>Large Format</h3><p>Make a bigger impact with banners, posters, wall graphics, signage, pull-up displays and promotional graphics.</p><span class="tag">PRINT BIG</span></article>
+<article class="card reveal"><div class="icon">✦</div><h3>DTF Apparel</h3><p>Custom full-colour transfers for T-shirts, hoodies, workwear and branded apparel with vibrant, durable results.</p><span class="tag">WEAR YOUR BRAND</span></article>
+<article class="card reveal"><div class="icon">⌂</div><h3>Business Branding</h3><p>Turn your space into a branded experience with shop signage, window graphics, office branding and promotional displays.</p><span class="tag">BRAND YOUR SPACE</span></article>
+<article class="card reveal"><div class="icon">◉</div><h3>Vehicle Branding</h3><p>Transform vehicles into moving billboards with professional graphics, decals and branded fleet solutions.</p><span class="tag">MOBILE MARKETING</span></article>
+<article class="card reveal"><div class="icon">◇</div><h3>Custom Solutions</h3><p>Need something specific? From event materials to promotional products, we can help turn your concept into a finished product.</p><span class="tag">MADE FOR YOU</span></article>
+</div></div></section>
+
+<section class="band"><div class="container band-grid reveal"><div><h2>From one T-shirt to a full business rebrand.</h2><p>Tell us what you need and we’ll help you choose the right print, material and finish.</p></div><a class="white-btn" href="#quote">Tell Us Your Idea →</a></div></section>
+
+<section class="showcase" id="work"><div class="container">
+<div class="section-head reveal"><h2>Print that<br>gets attention.</h2><p>Built for storefronts, promotions, events, teams and businesses that care about how they show up.</p></div>
+<div class="portfolio">
+<div class="tile large reveal"><div><h3>Large-format graphics</h3><p>Banners • Posters • Signage • Displays</p></div></div>
+<div class="tile red reveal"><div><h3>DTF apparel</h3><p>Tees • Hoodies • Workwear</p></div></div>
+<div class="tile dark reveal"><div><h3>Business print</h3><p>Cards • Flyers • Brochures</p></div></div>
+<div class="tile dark reveal"><div><h3>Branding</h3><p>Shops • Offices • Vehicles</p></div></div>
+<div class="tile reveal"><div><h3>Events</h3><p>Promotional & display solutions</p></div></div>
+</div></div></section>
+
+<section class="process" id="process"><div class="container">
+<div class="section-head reveal"><h2>Simple from start<br>to finish.</h2><p>No complicated process. Give us the brief, approve the artwork and we take care of the print.</p></div>
+<div class="steps">
+<div class="step reveal"><span class="num">01 / BRIEF</span><h3>Tell us what you need</h3><p>Send your idea, artwork, quantities, sizes and deadline.</p></div>
+<div class="step reveal"><span class="num">02 / QUOTE</span><h3>Get your quote</h3><p>We recommend the right print method and prepare your quote.</p></div>
+<div class="step reveal"><span class="num">03 / APPROVE</span><h3>Approve the artwork</h3><p>We check the files and make sure everything is ready for production.</p></div>
+<div class="step reveal"><span class="num">04 / PRINT</span><h3>We make it happen</h3><p>Your order goes into production and is prepared for collection or delivery.</p></div>
+</div></div></section>
+
+<section class="quote" id="quote"><div class="container quote-grid">
+<div class="reveal"><span class="eyebrow">LET'S CREATE</span><h2>Have a project in mind?</h2><p class="quote-copy">Send us the basics and we’ll have everything we need to start the conversation. For the fastest response, include your quantity, size and deadline.</p></div>
+<form class="form reveal" id="quoteForm">
+<div class="row"><div class="field"><label>NAME</label><input name="name" required placeholder="Your name"></div><div class="field"><label>PHONE / WHATSAPP</label><input name="phone" required placeholder="Your number"></div></div>
+<div class="row"><div class="field"><label>EMAIL</label><input name="email" type="email" placeholder="you@example.com"></div><div class="field"><label>SERVICE</label><select name="service"><option>Digital Printing</option><option>Large Format Printing</option><option>DTF Apparel</option><option>Business Branding</option><option>Vehicle Branding</option><option>Custom Project</option></select></div></div>
+<div class="field"><label>PROJECT DETAILS</label><textarea name="details" required placeholder="What would you like us to print? Include quantity, size, deadline and any other details."></textarea></div>
+<button class="submit" type="submit">Prepare My Quote Request →</button>
+</form>
+</div></section>
+</main>
+
+<footer><div class="container">
+<div class="foot">
+<div><a class="brand" href="#"><span class="mark">T</span><span>TENDIA PRINTING</span></a><p>Digital printing, large-format printing, branding and DTF apparel solutions for businesses, events and individuals.</p></div>
+<div><h4>Services</h4><a href="#services">Digital Printing</a><a href="#services">Large Format</a><a href="#services">DTF Apparel</a><a href="#services">Branding</a></div>
+<div><h4>Company</h4><a href="#work">Our Work</a><a href="#process">How It Works</a><a href="#quote">Get a Quote</a></div>
+</div>
+<div class="copyright"><span>© 2026 TENDIA PRINTING. All rights reserved.</span><span>Print. Brand. Stand Out.</span></div>
+</div></footer>
+
+<script>
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+document.querySelector('#quoteForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const f=new FormData(e.currentTarget);
+ const subject=encodeURIComponent('TENDIA PRINTING Quote Request — '+f.get('service'));
+ const body=encodeURIComponent('Name: '+f.get('name')+'\nPhone/WhatsApp: '+f.get('phone')+'\nEmail: '+f.get('email')+'\nService: '+f.get('service')+'\n\nProject details:\n'+f.get('details'));
+ window.location.href='mailto:?subject='+subject+'&body='+body;
+});
+</script>
+</body>
+</html>
