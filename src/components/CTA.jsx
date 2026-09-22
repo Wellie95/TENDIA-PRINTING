@@ -1,0 +1,1 @@
+import {Link} from "react-router-dom";export default function CTA(){return <section className="cta"><div className="container cta-inner"><div><span className="eyebrow">READY TO PRINT?</span><h2>Have an idea?<br/><i>Let's make it real.</i></h2></div><Link className="white-btn" to="/contact#quote">Start a project ↗</Link></div></section>}
