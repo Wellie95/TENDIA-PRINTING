@@ -1,0 +1,1 @@
+import {Link} from "react-router-dom";export default function PriceCard({item,index}){return <article className={"price-card "+(index===0?"featured":"")}><div><span className="price-name">{item.title}</span><small>{item.note}</small></div><div className="price-value">{item.price}<em> / {item.unit}</em></div><Link to="/contact#quote">Get quote →</Link></article>}
