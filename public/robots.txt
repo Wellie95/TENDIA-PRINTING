@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tendia-printing-4p9u2d0m4-stylz-digital.vercel.app/sitemap.xml
